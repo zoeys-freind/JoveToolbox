@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+
+# shell command catcher
+
+from jovetools import shell as shl
+import sys
+shl.sys.argv = sys.argv
+shl.main()
