@@ -1,3 +1,3 @@
-@mk_command("test2", "Test command 2")
+@mk_command("test2", "Test command 2", (("testarg", "test arg"),))
 def test(*args):
-    print("Test 2 command ran!")
+    print(args)
