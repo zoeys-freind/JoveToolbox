@@ -4,10 +4,8 @@ import requests as rq
 import os
 
 @mk_command("update", "Updates the main handler.")
-def install(*args):
-    if args[0].startswith("-"):
-        pass
-    else:
+def _update(*args):
+    if True:
         url = "https://raw.githubusercontent.com/zoeys-freind/JoveToolbox/main/jovetools/jovetools/shell/__init__.py"
         req = rq.get(url)
         print(f"Getting source...")
