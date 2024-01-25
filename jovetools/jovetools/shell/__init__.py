@@ -1,5 +1,5 @@
 import sys, os
-# command: jtools <command> <args>
+# command: jtools <command> <args> j
 command_dict = {}
 # command creation decorator
 # this makes it really simple to make the commands
