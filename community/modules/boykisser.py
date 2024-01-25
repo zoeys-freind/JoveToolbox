@@ -1,4 +1,3 @@
-@mk_command("boy", "You know what you are. >:3", (("invert", "If this is set to anything, it will invert the text."),))
 boykiss = """
             #          %      /%&(             &            &.        
             &           /&    @      ,@,     &              %(        
@@ -47,6 +46,7 @@ boykiss_inv = """
 @@@@@@@@@@@@@@@@@@@@@@@@@@*@@@@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@&.@@@@@@@@@@@@@@@@@@@@@@@,@@@@@@@@@@@@@@@@@@@
 """[1:-1]
+@mk_command("bk", "You know what you are. >:3", (("invert", "If this is set to anything, it will invert the text."),))
 def boykisser(*args):
   if len(args) >= 1:
     print(boykiss_inv)
