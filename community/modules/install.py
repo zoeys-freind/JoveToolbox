@@ -3,7 +3,7 @@
 import requests as rq
 import os
 
-@mk_command("install", "Installs a sub-module from the repo.")
+@mk_command("install", "Installs a sub-module from the repo.", (("module name", "The identifier for the module you want to install."),))
 def install(*args):
     if args[0].startswith("-"):
         pass
